@@ -6,10 +6,16 @@ pluggy>=0.3.1
 py>=1.4.31
 randomize>=0.13
 mock>=2.0.0
-sphinx>=1.4 # BSD
+sphinx>=3.3.0 # BSD
 recommonmark
 sphinx_markdown_tables
 codecov>=1.4.0
 pycodestyle
 autopep8
 isort
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
